@@ -1,73 +1,67 @@
-<p align="center">
-  <img src="assets/gh-banner.png" alt="Cannonbal Theme Banner">
-</p>
+# Flux Lifestyle Studios - Coming Soon Page
 
-<br/>
-<div align="center">
-  <a href="https://twitter.com/littlesticksdev">
-  <img src="assets/twitter-badge.svg" alt="Follow Little Sticks on Twitter"/>
-</a>
-  <a href="https://littlesticks.lemonsqueezy.com/checkout/buy/ce15f246-6ffb-417d-b380-0745aeef69a9">
-    <img src="assets/sponsor-badge.svg" alt="Sponsor This Repo" />
-  </a>
-  <a href="https://littlesticks.dev/discord">
-    <img src="assets/discord-badge.svg" alt="Join our Discord" />
-  </a>
-  
-</div>
-<br/>
+A modern, responsive coming soon page built with Astro.js for Flux Lifestyle Studios. The site features a clean design with a newsletter signup form to capture interested visitors.
 
-# Cannonball Splash Page 💦
+## 🚀 Features
 
-This is a template for a modern splash page/coming soon page inspired by [this Framer template](https://coming-soon.framer.website/).
+- ⚡️ Built with Astro.js for optimal performance
+- 📱 Fully responsive design
+- 💌 Email signup form
+- 🎨 Beautiful background with SVG patterns
+- 🔄 Smooth fade-in animations
+- 🔗 Social media integration (Instagram)
+- 🎯 SEO optimized
 
-You can learn more about this template/theme's creation in [this YouTube video](https://www.youtube.com/watch?v=o58kSpPMuuI)
+## 🛠️ Tech Stack
 
-## Features
+- [Astro](https://astro.build)
+- TypeScript
+- CSS3
+- Material Icons
 
-- ✅ Modern Design
-- ✅ Email Signup Form
-- ✅ SEO friendly
-- ✅ Modern CSS Reset via Andy Bell
-- ✅ Fluid typography scaling via Utopia
-- ✅ Base and Page Layouts
-- ✅ A generic but flexible Button component
-- ✅ Automatic Sitemap
+## 🏗️ Getting Started
 
-## Get Started 
-
-Customize the global site settings such as the title and description in the `src/data/settings.ts` file
-
-Set your own social profile links and icons in the `src/data/socials.ts` file
-
-<p>
-  <a href="https://stackblitz.com/github/littlesticks/cannonball">
-  <img src="https://developer.stackblitz.com/img/open_in_stackblitz.svg" height="36px" />
-  </a>
-</p>
-
-OR
-
-## Local Development
-
-```sh
-npm i && npm start
+1. Clone the repository
+2. Install dependencies:
+```bash
+pnpm install
 ```
 
-## Deploy
+3. Start the development server:
+```bash
+pnpm dev
+```
 
-Astro has [an in-depth guide](https://docs.astro.build/en/guides/deploy/) on how to deploy an Astro project to each service.
+4. Build for production:
+```bash
+pnpm build
+```
 
-## Sponsor
+5. Preview production build:
+```bash
+pnpm preview
+```
 
-If you find this theme useful, please consider donating to support the continued development of it with the link below
+## 📝 Environment Setup
 
-[Donate to Little Sticks](https://littlesticks.lemonsqueezy.com/checkout/buy/ce15f246-6ffb-417d-b380-0745aeef69a9)
+Make sure you have Node.js installed on your system. This project uses pnpm as the package manager.
 
-## Support
+## 🎨 Project Structure
 
-Please feel free to reach out to us on our Discord if you have questions or file an issue on the repo.
+```
+src/
+├── components/    # Reusable UI components
+├── data/         # Site settings and social links
+├── icons/        # SVG icons and logos
+├── layouts/      # Page layouts
+├── pages/        # Route pages
+└── styles/       # Global styles
+```
 
-[Join our Discord](https://littlesticks.dev/discord)
-# flux-lilfestyle-studios
-# flux-lilfestyle-studios
+## 📄 License
+
+This project is licensed under the MIT License.
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
